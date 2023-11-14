@@ -1,0 +1,126 @@
+.pagina_principal{width: 1440px; margin: 0 auto; font-family: 'Montserrat', sans-serif; }
+.color1{background-color: #c6ae5d;font-family: 'Montserrat', sans-serif; }
+.color2{background-color: #3c3c3b; font-family: 'Montserrat', sans-serif; }
+.color3{background-color: #1e1f20; }
+.color4{background-color: aliceblue; text-align: center; font-family: 'Montserrat', sans-serif; }
+
+.imagen{background-image: url(contenido/imagenes/IMG_20231108_125633.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;}
+
+.body {margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif; }
+
+.color1 h1 {
+    margin: 0 620px 0 0;
+    color: #c6ae5d;
+}
+
+.titulod h2{
+    font-size: 176px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.image{
+    width: 100%; 
+    border-radius: 50%; 
+}
+
+/* cambios */
+.galeria-titulo {
+    font-size: 100px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background-color: #feffe9;
+}
+
+.galeria-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url(contenido/imagenes/IMG_20231110_120334_2.jpg);
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.cuadro_descripcion {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+
+.titulo-grande {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.imagen-galeria {
+    max-width: 50%; 
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto; 
+}
+
+.carousel-item{
+   
+}
+
+.boton {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.boton-anterior {
+    background-color: #333;
+    color: white;
+}
+
+.boton-siguiente {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.boton:hover {
+    background-color: #ddd;
+}
+
+.container-autor {height: 100vh;
+        padding: 50px;
+        background-image: url(contenido/imagenes/IMG_20231108_125633.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;}
+
+    .cuadro-texto {background-color: rgba(255, 255, 255, 0.7);
+        width: 400px;
+        padding: 22px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px 0 -200px 0;
+        text-align: left;}
+
+    .circulo {width: 100px; height: 100px;
+        margin: -80px 0 0 250px;
+        padding: 2px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        justify-content: right;
+        align-items: right;}
+
+.image{width: 100%; border-radius: 50%; }
+.titulo-autor{align-items: center;}

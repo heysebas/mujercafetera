@@ -1,0 +1,266 @@
+.pagina_principal{width: 1440px; margin: 0 auto; font-family: 'Montserrat', sans-serif; }
+.color1{background-color: #c6ae5d;font-family: 'Montserrat', sans-serif; }
+.color2{background-color: #3c3c3b; font-family: 'Montserrat', sans-serif; }
+.color3{background-color: #1e1f20; }
+.color4{background-color: aliceblue; text-align: center; font-family: 'Montserrat', sans-serif; }
+
+.imagen{background-image: url(contenido/imagenes/IMG_20231108_125633.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;}
+
+.body {margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif; }
+
+
+.color1 h1 {
+    margin: 0 620px 0 0;
+    color: #c6ae5d;
+}
+
+.cajamujer { 
+    width: 1468px;
+    height: 650px;
+    background-color: beige;
+    background-image: url(contenido/imagenes/hola.png.jpg);
+    background-size: cover;
+   background-position: center;
+    text-align: center;
+   margin: 0;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.cajamujer h2{
+    font-size: 123px;
+}
+
+.cajamujer h3{
+    font-size: 58px;
+}
+
+.cajamujer p{
+    margin: 50px 0 0 118px;
+    max-width: 1200px; 
+    padding: 1px;
+    text-align:center;
+}
+
+.flech {
+    width: 268px;
+    height: 650px;
+    margin: 30px 0 0px 560px;
+    padding: 10px;
+}
+
+.vision {
+    width: 1468px;
+    height: 660px;
+    background-color: beige;
+}
+
+
+.disrup {
+    width: 468px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 80px;
+    background-color: #F2A671;
+    border-radius: 15px;
+    text-align:center;
+
+    
+}
+
+.coffe {
+    width: 478px;
+    height: 500px;
+    margin-left: 20px; 
+    margin-top: -20px;
+    padding: 10px;
+    background-image: url(contenido/imagenes/cafe.jpg);
+    background-size: cover;
+   background-position: center;
+    border-radius: 15px;
+
+    
+}
+
+.textd {
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 590px 0 0 120px;
+    max-width: 450px; 
+    max-height: 400px;
+    padding: 1px;
+    text-align:left;
+}
+
+.textd h2 {
+    margin: -520px 0 0 -18px;
+    max-width: 500px; 
+    padding: 15px;
+    text-align:left;
+    font-size: 36px;
+}
+
+ .boton {
+     height: 50px;
+     width: 200px;
+      display: inline-block;
+     margin: 20px 480px 0px 0;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #303030; 
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+     font-family: 'Montserrat', sans-serif;
+     font-size:20px;
+    }
+
+    .boton:hover {
+      background-color:  #c6ae5d; 
+    }
+
+.media {
+    width: 1468px;
+    height: 850px;
+    background-image: url(contenido/imagenes/fondocoffe.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;   
+    
+}
+
+.galeria-titulo {
+          font-family: 'Montserrat', sans-serif;  
+    } 
+
+.galeria-container img{
+    width: 100%;
+    border-radius:10px;
+    border-color: dimgrey;
+}
+
+.containert {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ .media h1 {
+      text-align: center;
+     margin: 50px 0 0 325px;
+     padding: opx;
+       font-family: 'Montserrat', sans-serif;
+     font-size: 70px;
+    }
+
+.img1 {
+    width: 10px;
+    height: 10px;
+}
+
+.estas {
+    width: 1468px;
+    height: 200px;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.estadistica {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.estadistica h2 {
+    margin-bottom: 10px;
+}
+
+
+.sinap {
+     width: 1468px;
+    height: 1150px;
+    margin: 0;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    background-image: url(contenido/imagenes/cafefon1.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción de aspecto de 16:9 para videos */
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+h1 {
+    color: #c6ae5d;
+}
+
+
+.container-autor {height: 100vh;
+        padding: 50px;
+        background-image: url(contenido/imagenes/IMG_20231108_125633.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;}
+
+    .cuadro-texto {background-color: rgba(255, 255, 255, 0.7);
+        width: 400px;
+        padding: 22px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px 0 -200px 0;
+        text-align: left;}
+
+    .circulo {width: 100px; height: 100px;
+        margin: -80px 0 0 250px;
+        padding: 2px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        justify-content: right;
+        align-items: right;}
+
+.image{width: 100%; border-radius: 50%; }
+.titulo-autor{align-items: center;}
